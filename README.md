@@ -1,3 +1,8 @@
+If you want to use this code, please cite our article describing this solution:
+
+**IEEE style** 
+
+K. Okasová and K. Košťál, "Using Machine Learning for Predicting Arbitrage Occurrences in Cryptocurrency Exchanges," 2024 IEEE International Conference on Blockchain and Cryptocurrency (ICBC), Dublin, Ireland, 2024, pp. 1-7.
 
 # Cryptocurrency arbitrage trading bot with Machine Learning  
 
@@ -61,62 +66,61 @@ Building_models(self.cryptocurrency_pairs)
 
 The program providing an arbitrage bot with related Machine Learning processes has the following structure:
 ```bash
-arbitrage_bot/
-    .gitignore
-    exchange_connection.py
-    load_dataset.py
-    main.py
-    portfolio.json
-    README.md
-    requirements.txt
-    tree_output.py
-    best_models/
-        best_models.json
-        best_model_BTCUSDT.sav
-        best_model_ETHUSDT.sav
-    bot/
-        arbitrage_bot.py
-        keys.json
-    dataset/
-        Binance_data_BTCUSDT_15m.csv
-        Binance_data_BTCUSDT_1m.csv
-        Binance_data_BTCUSDT_5m.csv
-        Binance_data_ETHUSDT_15m.csv
-        Binance_data_ETHUSDT_1m.csv
-        Binance_data_ETHUSDT_5m.csv
-        Bybit_data_BTCUSDT_15m.csv
-        Bybit_data_BTCUSDT_1m.csv
-        Bybit_data_BTCUSDT_5m.csv
-        Bybit_data_ETHUSDT_15m.csv
-        Bybit_data_ETHUSDT_1m.csv
-        Bybit_data_ETHUSDT_5m.csv
-    dataset_preprocessed/
-        BTCUSDT_15m.csv
-        BTCUSDT_1m.csv
-        BTCUSDT_5m.csv
-        ETHUSDT_15m.csv
-        ETHUSDT_1m.csv
-        ETHUSDT_5m.csv
-    exchanges/
-        Binance_connector.py
-        Binance_operations.py
-        Bybit_connector.py
-        Bybit_operations.py
-    hypothesis_testing/
-        hypothesis_data.json
-        hypothesis_results.json
-    images/
-        change.png
-        open_prices.png
-        traded_volume.png
-    machine_learning/
-        building_models.py
-        data_description.py
-        data_gathering.py
-        data_preprocessing.py
-        data_visualization.py
-        hypothesis_testing.py
-        machine_learning.py
+.gitignore
+exchange_connection.py
+load_dataset.py
+main.py
+portfolio.json
+README.md
+requirements.txt
+tree_output.py
+best_models/
+    best_models.json
+    best_model_BTCUSDT.sav
+    best_model_ETHUSDT.sav
+bot/
+    arbitrage_bot.py
+    keys.json
+dataset/
+    Binance_data_BTCUSDT_15m.csv
+    Binance_data_BTCUSDT_1m.csv
+    Binance_data_BTCUSDT_5m.csv
+    Binance_data_ETHUSDT_15m.csv
+    Binance_data_ETHUSDT_1m.csv
+    Binance_data_ETHUSDT_5m.csv
+    Bybit_data_BTCUSDT_15m.csv
+    Bybit_data_BTCUSDT_1m.csv
+    Bybit_data_BTCUSDT_5m.csv
+    Bybit_data_ETHUSDT_15m.csv
+    Bybit_data_ETHUSDT_1m.csv
+    Bybit_data_ETHUSDT_5m.csv
+dataset_preprocessed/
+    BTCUSDT_15m.csv
+    BTCUSDT_1m.csv
+    BTCUSDT_5m.csv
+    ETHUSDT_15m.csv
+    ETHUSDT_1m.csv
+    ETHUSDT_5m.csv
+exchanges/
+    Binance_connector.py
+    Binance_operations.py
+    Bybit_connector.py
+    Bybit_operations.py
+hypothesis_testing/
+    hypothesis_data.json
+    hypothesis_results.json
+images/
+    change.png
+    open_prices.png
+    traded_volume.png
+machine_learning/
+    building_models.py
+    data_description.py
+    data_gathering.py
+    data_preprocessing.py
+    data_visualization.py
+    hypothesis_testing.py
+    machine_learning.py
 
 ```
 
