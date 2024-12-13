@@ -1,6 +1,6 @@
-If you want to use this code, please cite our article describing this solution:
+This repository contains datasets for our 2 papers, the first conference one and an extension of the first one submitted to a journal. The source codes are only for the original conference paper. If you want to use this code or datasets, please cite our articles describing them:
 
-**IEEE style** 
+**Conference paper IEEE style** 
 
 K. Okasová and K. Košťál, "Using Machine Learning for Predicting Arbitrage Occurrences in Cryptocurrency Exchanges," 2024 IEEE International Conference on Blockchain and Cryptocurrency (ICBC), Dublin, Ireland, 2024, pp. 1-7.
 
@@ -125,11 +125,13 @@ machine_learning/
 ```
 
 where the directories contain a specific part of the program as described in the following list.
-1. **best_models** = saved best-trained Machine Learning models  
-2. **bot** = execution of the arbitrage bot with necessary keys  
-3. **dataset** = gathered datasets for the past half year from Binance and Bybit for BTCUSDT and ETHUSDT cryptocurrency pairs at 1, 5, and 15-minute intervals  
-4. **dataset_preprocessed** = preprocessed datasets, including percentage change and probable occurrence of an arbitrage  
-5. **exchanges** = provide a connection to an exchange, format queries for the API, and call specific endpoints  
-6. **hypothesis_testing** = data for hypotheses and results of hypothesis testing  
-7. **images** = visualizations of the datasets  
-8. **machine_learning** = all steps of the Machine Learning process
+1. **article_datasets** = refreshed an updated datasets with new OHLCV data for 2024 year from Binance and Bybit for BTCUSDT and ETHUSDT cryptocurrency pairs at 1, 5, and 15-minute intervals
+2. **article_datasets_preprocessed** = preprocessed updated datasets, including percentage change and probable occurrence of an arbitrage  
+3. **best_models** = saved best-trained Machine Learning models  
+4. **bot** = execution of the arbitrage bot with necessary keys  
+5. **dataset** = gathered datasets for the past half year from Binance and Bybit for BTCUSDT and ETHUSDT cryptocurrency pairs at 1, 5, and 15-minute intervals  
+6. **dataset_preprocessed** = preprocessed datasets, including percentage change and probable occurrence of an arbitrage  
+7. **exchanges** = provide a connection to an exchange, format queries for the API, and call specific endpoints  
+8. **hypothesis_testing** = data for hypotheses and results of hypothesis testing  
+9. **images** = visualizations of the datasets  
+10. **machine_learning** = all steps of the Machine Learning process
